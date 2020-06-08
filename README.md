@@ -11,7 +11,7 @@ CKEditor Package
 ### Set up package
 
 ```
-composer require unisharp/laravel-ckeditor
+composer require hpez/laravel-ckeditor
 ```
 
 ### Add ServiceProvider
@@ -20,7 +20,7 @@ For Laravel 5.5+ you can skip this step.
 
 For Laravel 5.4 and earlier edit config/app.php, add the following file to `Application Service Providers` section.
 ```
-Unisharp\Ckeditor\ServiceProvider::class,
+Hpez\Ckeditor\ServiceProvider::class,
 ```
 ### Publish the resources
 ```
@@ -31,7 +31,7 @@ php artisan vendor:publish --tag=ckeditor
 Default way (initiate by name or id) :
 
 ```javascript
-    <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+    <script src="/vendor/hpez/laravel-ckeditor/ckeditor.js"></script>
     <script>
         CKEDITOR.replace( 'article-ckeditor' );
     </script>
@@ -40,8 +40,8 @@ Default way (initiate by name or id) :
 Or if you want to initiate by jQuery selector :
 
 ```javascript
-    <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
-    <script src="/vendor/unisharp/laravel-ckeditor/adapters/jquery.js"></script>
+    <script src="/vendor/hpez/laravel-ckeditor/ckeditor.js"></script>
+    <script src="/vendor/hpez/laravel-ckeditor/adapters/jquery.js"></script>
     <script>
         $('textarea').ckeditor();
         // $('.textarea').ckeditor(); // if class is prefered.
