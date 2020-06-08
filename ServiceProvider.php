@@ -1,6 +1,6 @@
 <?php
 
-namespace Unisharp\Ckeditor;
+namespace Hpez\Ckeditor;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

@@ -1,5 +1,5 @@
 {
-	"name": "unisharp/laravel-ckeditor",
+	"name": "hpez/laravel-ckeditor",
 	"description": "JavaScript WYSIWYG web text editor (for laravel).",
 	"type": "library",
 	"keywords": [ "ckeditor", "fckeditor", "editor", "wysiwyg", "html", "richtext", "text", "javascript", "laravel"],
@@ -11,8 +11,8 @@
 			"homepage": "http://cksource.com"
 		},
 		{
-			"name":  "UniSharp Ltd. (Composer Package Maintainer)",
-			"homepage": "http://www.unisharp.com"
+			"name": "Hassan Pezeshk",
+			"email": "hpez58@gmail.com"
 		}
 	],
 	"support": {
@@ -23,17 +23,17 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Unisharp\\Ckeditor\\": "./"
+			"Hpez\\Ckeditor\\": "./"
 		}
 	},
 	"require": {
-		"illuminate/support": "~5.0|^6.0"
+		"illuminate/support": ">=5.0"
 	},
 	"minimum-stability": "dev",
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Unisharp\\Ckeditor\\ServiceProvider"
+				"Hpez\\Ckeditor\\ServiceProvider"
 			]
 		}
 	}
